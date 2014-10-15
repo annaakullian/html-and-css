@@ -3,12 +3,26 @@
         <style>
             body {
                 font-family: sans-serif;
-                margin: 0;    
+            }
+            div#boxright {
+                background-color: #CCCCCC;
+                width: 350px;
+                height: 260px;
+                /*font-size: 20;*/
+                position: absolute;
+                margin-left: 350px;
+            }
+            div#boxleft {
+                background-color: #CCCCCC;
+                width: 300px;
+                height: 340px;
+                font-size: 20;
             }
             label {
                 width:100px;
                 display: inline-block;
             }
+           
         </style>    
         <title>
             HTML Trials
@@ -16,9 +30,10 @@
     </head> 
     <body>
         <h1>
-            A Fancy Form
+            <strong>Columns!</strong>
         </h1>
-        <form>
+        <div id="boxright">
+            <form>
                 <div>
                     <label for="name">Name</label>
                     <input type="text" name="name"></input>
@@ -46,7 +61,24 @@
                     <input type="submit">
                 </div>
 
-        </form>
+            </form>
+
+
+
+
+
+
+
+        </div>
+        <div id="boxleft"><h2><strong>Here is a list of things.</strong></h2>
+            <ul>
+                <li>Banana.</li>
+                <li>Rabbit holes.</li>
+                <li>John Quincy Adams</li>
+                <li>A sea serpent.</li>
+            </ul>    
+
+        </div>
     </body> 
 
 </html>
