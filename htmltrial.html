@@ -3,7 +3,11 @@
         <style>
             body {
                 font-family: sans-serif;
-                margin: 0;
+                margin: 0;    
+            }
+            label {
+                width:100px;
+                display: inline-block;
             }
         </style>    
         <title>
@@ -15,30 +19,32 @@
             A Fancy Form
         </h1>
         <form>
-            <div>
-                <label for="name">Name</label>
-                <input type="text" name="name"></input>
-            </div>
-            <div>
-                <label for="age">Age</label>
-                <input type="text" name="age"></input>
-            </div>
-            <div>
-                <select>
-                    <label for"favoritecolor">Favorite Color</label>
-                    <option value="magenta">Magenta</option>
-                </select>    
-            </div>        
-            <div>
-                <input type="radio" name="musicpref" value="Love Music">Love Music </input>
-                <input type="radio" name="musicpref" value="Hate Music">Hate Music </input>
-            </div>
-            <div>
-                <input type="checkbox" name="rainoption" value="Is it raining?">Is it Raining?</input>
-            </div>
-            <div>
-                <input type="submit">
-            </div>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name"></input>
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="text" name="age"></input>
+                </div>
+                <div>
+                    <label for="favorite color">Favorite Color</label>
+                    <select>
+                        <option value="magenta">Magenta</option>
+                    </select>    
+                </div>        
+                <div>
+                    <label for="musicpref">Love Music</label><input type="radio" value="Love Music"/>
+                </div>
+                <div>    
+                    <label for="musicpref">Hate Music</label><input type="radio" value="Hate Music"/>
+                </div>
+                <div>
+                    <label for="rainoption">Is it Raining?</label><input type="checkbox" name="rainoption" value="Is it raining?"/>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
 
         </form>
     </body> 
