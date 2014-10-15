@@ -1,41 +1,45 @@
 <html>
     <head>
         <style>
-            body {
+            /*body {
                 font-family: sans-serif;
-                margin: 0;
-            }
-            div#border{
-                width:300px;
-                height:200px;
-                border: 5px solid black;
-            }
-            div.boxes {
+                margin: 110;
+            }*/
+           
+            div.boxessmall {
                 width:100px;
-                height:200px;
+                height:100px;
                 display: inline-block;
-                margin:0px;
+                margin-left: 50px;
+                margin-top: 50px;
+
             }
-            div#green {
-                background-color: green;
-            }
-            div#white {
-                background-color: white;
+            div.boxeslarge {
+                margin-color: blue;
+                width: 350px;
+                height: 200px;
             }
             div#red {
                 background-color: red;
-            } 
+            }
+            div#blue {
+                background-color: blue;
+            }
+            div#black {
+                background-color: black;
+            }
         </style>    
         <title>
             HTML Trials
         </title>
     </head> 
     <body>
-        <h1>
-            <div id="border">
-                <div id="green" class="boxes"></div><div id="white" class="boxes"></div><div id="red" class="boxes"></div> 
-            </div>          
-        </h1>
+        <div id="red" class="boxeslarge">
+            <div id="black" class="boxessmall"></div><div id="black" class="boxessmall"></div>  
+        </div>
+        <div id="blue" class="boxeslarge">
+            <div id="black" class="boxessmall"></div><div id="black" class="boxessmall"></div>
+        </div>
     </body> 
 
 </html>
