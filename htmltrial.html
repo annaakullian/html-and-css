@@ -4,25 +4,93 @@
             body {
                 font-family: sans-serif;
             }
-            div#boxright {
-                background-color: #CCCCCC;
-                width: 350px;
-                height: 260px;
-                /*font-size: 20;*/
+     /*       .boxes{
+                margin-top:  5px;
+                margin-bottom: 5px;
+                position: absolute; */
+
+           /* }*/
+            div.boxesdark{
+                background-color: #555555;
+                height: 130px;
+                width: 600px;
+                margin: 10px;
+            }
+            
+            div.toprow {
+                height: 100px;
+                width: 180px;
+                background-color: #cccccc;
+                /*display:inline-block;*/
+                margin-top:15px;
+
+            }
+            
+            div#boxesfirstrow3 {
+                position:absolute;
+                margin-left: 385px;
+               
+            }
+
+             div#boxesfirstrow2 {
                 position: absolute;
-                margin-left: 350px;
+                margin-left: 200px;
+            
             }
-            div#boxleft {
-                background-color: #CCCCCC;
-                width: 300px;
-                height: 340px;
-                font-size: 20;
+         
+            div#boxesfirstrow1 {
+                position: absolute;
+                margin-left: 15px;
             }
-            label {
-                width:100px;
-                display: inline-block;
+
+            div.middlerow {
+                width: 130px;
+                background-color: #cccccc;
+                margin-top:15px;
+            }
+
+            div#boxessecondrow4 {
+                position:absolute;
+                height: 80px;
+                margin-left: 440px;
+            }
+            div#boxessecondrow3 {
+                position:absolute;
+                height: 100px;
+                margin-left:300px;
+            }
+
+            div#boxessecondrow2 {
+                position:absolute;
+                height: 80px;
+                margin-left: 150px;
+            }
+            div#boxessecondrow1 {
+                position:absolute;
+                height: 100px;
+                margin-left:10px;
+            }
+            div.bottomrow {
+                width: 270px;
+                background-color: #cccccc;
+                margin-bottom: 10px
+            }
+            div#boxesbottomrow2 {
+                position:absolute;
+                height: 100px;
+                margin-left: 300px;
+                margin-top: 10px;
+            }
+            div#boxesbottomrow1 {
+                position:absolute;
+                height: 30px;
+                margin-left: 10px;
+                margin-top: 80px;
             }
            
+            
+
+
         </style>    
         <title>
             HTML Trials
@@ -30,54 +98,26 @@
     </head> 
     <body>
         <h1>
-            <strong>Columns!</strong>
+            <strong>AAAAAHHHHH</strong>
         </h1>
-        <div id="boxright">
-            <form>
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" name="name"></input>
-                </div>
-                <div>
-                    <label for="age">Age</label>
-                    <input type="text" name="age"></input>
-                </div>
-                <div>
-                    <label for="favorite color">Favorite Color</label>
-                    <select>
-                        <option value="magenta">Magenta</option>
-                    </select>    
-                </div>        
-                <div>
-                    <label for="musicpref">Love Music</label><input type="radio" value="Love Music"/>
-                </div>
-                <div>    
-                    <label for="musicpref">Hate Music</label><input type="radio" value="Hate Music"/>
-                </div>
-                <div>
-                    <label for="rainoption">Is it Raining?</label><input type="checkbox" name="rainoption" value="Is it raining?"/>
-                </div>
-                <div>
-                    <input type="submit">
-                </div>
+       
 
-            </form>
-
-
-
-
-
-
-
+        <div class = "boxesdark">
+            <div id = "boxesfirstrow3" class = "toprow"></div>
+            <div id = "boxesfirstrow2" class = "toprow"></div>
+            <div id = "boxesfirstrow1" class = "toprow"></div>
         </div>
-        <div id="boxleft"><h2><strong>Here is a list of things.</strong></h2>
-            <ul>
-                <li>Banana.</li>
-                <li>Rabbit holes.</li>
-                <li>John Quincy Adams</li>
-                <li>A sea serpent.</li>
-            </ul>    
 
+        <div class = "boxesdark">
+            <div id = "boxessecondrow4" class = "middlerow"></div>
+            <div id = "boxessecondrow3" class = "middlerow"></div>
+            <div id = "boxessecondrow2" class = "middlerow"></div>
+            <div id = "boxessecondrow1" class = "middlerow"></div>
+        </div>
+
+        <div class = "boxesdark">
+            <div id="boxesbottomrow2" class = "bottomrow"></div>
+            <div id="boxesbottomrow1" class = "bottomrow"></div>
         </div>
     </body> 
 
